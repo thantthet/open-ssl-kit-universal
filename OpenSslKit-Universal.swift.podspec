@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
-  s.name             = 'OpenSslKit.swift'
+  s.name             = 'OpenSslKit-Universal.swift'
   s.module_name      = 'OpenSslKit'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'OpenSsl crypto library with base58 conversion for Swift. Supports iOS & OSX'
 
   s.description      = <<-DESC
 OpenSslKit includes crypto functions that can be used in pure Swift. It supports openssl, base58, sha3 keccak256.
                        DESC
 
-  s.homepage         = 'https://github.com/horizontalsystems/open-ssl-kit-ios'
+  s.homepage         = 'https://github.com/cuhte3/open-ssl-kit-universal'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Horizontal Systems' => 'hsdao@protonmail.ch' }
-  s.source           = { git: 'https://github.com/horizontalsystems/open-ssl-kit-ios.git', tag: "#{s.version}" }
+  s.author           = { 'Horizontal Systems' => 'hsdao@protonmail.ch', 'farid' => 'farid@getportal.co' }
+  s.source           = { git: 'https://github.com/cuhte3/open-ssl-kit-universal.git', tag: "#{s.version}" }
   s.social_media_url = 'http://horizontalsystems.io/'
 
   s.ios.deployment_target = '11.0'
