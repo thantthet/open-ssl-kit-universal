@@ -1,5 +1,5 @@
 PODS:
-  - OpenSslKit.swift (1.0)
+  - OpenSslKit.swift (1.2.2)
 
 DEPENDENCIES:
   - OpenSslKit.swift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OpenSslKit.swift: 6e699e0d69fae6b306eaca0b8971c59bc45546ab
+  OpenSslKit.swift: 0e2194853fd9ce42006cf18c89743331406a10a9
 
 PODFILE CHECKSUM: 2a96915a9379ccbde3092f7557dba2482c926f60
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
