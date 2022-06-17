@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'OpenSslKit-Universal.swift'
+  s.name             = 'OpenSslKit.swift'
   s.module_name      = 'OpenSslKit'
   s.version          = '1.2.2'
   s.summary          = 'OpenSsl crypto library with base58 conversion for Swift and Scrypt hash for litecoin. Supports iOS & macOS via xcframework'
